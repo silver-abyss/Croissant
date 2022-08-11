@@ -1,0 +1,34 @@
+body {
+    background-color: #B7C2D4;
+    font-family: 'Courgette', cursive;
+}
+
+h1 {
+    color: #DD9658;
+}
+
+.navbar-custom {
+    background-color: #CACCDB;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #686C77;
+}
+
+.img-thumbnail {
+    background-color: #CACCDB;
+    border: #CACCDB;
+}
+
+.hover figure img {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover figure:hover img {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+} 

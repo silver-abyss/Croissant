@@ -1,0 +1,38 @@
+body {
+    background-color: #B7C2D4;
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    color: #C87B4F;
+    font-weight: bold; 
+}
+h2 {
+    color: #DD9658;
+}
+h3 {
+    color: #81543D;
+    text-align: justify;
+}
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+@media (min-width: 900px) {
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        height: fit-content;
+}
+}
+.navbar-custom {
+    background-color: #CACCDB;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #686C77;
+}
+

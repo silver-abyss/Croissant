@@ -1,0 +1,41 @@
+body {
+    background-color: #B7C2D4;
+    font-family: 'Courgette', cursive;
+}
+
+h1 {
+    color: #333333;
+    font-weight: bold;
+}
+
+.btn {
+    border: 0cm;
+}
+
+.btn:hover {
+    color: #FFEE63;
+}
+
+.navbar-custom {
+    background-color: #CACCDB;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #686C77;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+@media (min-width: 900px) {
+    img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 45%;
+            height: fit-content;
+        }
+}
