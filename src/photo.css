@@ -32,3 +32,11 @@ h1 {
     -webkit-filter: blur(0);
     filter: blur(0);
 } 
+
+/* @media (max-width: 800px) {
+    .body {
+        display: block;
+        max-width: auto;
+        background-color: aqua;
+    }
+} */
